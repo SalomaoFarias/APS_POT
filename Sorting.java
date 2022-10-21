@@ -352,19 +352,4 @@ public class Sorting {
             for (i = 0; i < n;  i++) x[i] = output[i];
         } 
     }
-
-    public static void main(String[] args) {
-        int a[] = {1, 3, 5, 7, 9, 2, 4, 6, 8, 10};
-
-        mergeSort(a, 0, a.length - 1);
-
-        System.out.print("{");
-        for(int k = 0; k < a.length; k++){
-            if(k < (a.length - 1)) {
-                System.out.print(a[k] + ", ");
-            }else {
-                System.out.println(a[k] + "} ");
-            } 
-        }
-    }
 }
