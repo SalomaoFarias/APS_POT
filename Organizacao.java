@@ -512,40 +512,4 @@ public class Organizacao {
         }
         System.out.println("}");
     }
-        
-
-    public static void main(String[] args) {
-
-        int a [][] = {{26, 26, 42, 5, 34}, {16, 8, 94, 83, 68}};
-        //int b [][] = {{1, 3, 5, 7, 9, 2, 4, 6, 8, 10}, {13, 86, 45, 68, 12, 84, 35, 71, 9, 10}};
-        //insectionSort(b);
-        //selectionSort(b);
-        //bubbleSort(b);
-        //heapSort(b);
-        /*int count = 0;
-        float total = 0;
-        for(int l = 0; l < b.length; l++) {
-            int n = b[0].length;
-            count = quickSort(b, 0, n - 1, l, count);
-            total = total+count;
-            count = 0;
-        }
-        
-        System.out.print("Media QS = ");
-        System.out.printf("%.2f %n", (total/b.length));
-        */
-        //countingSort(b);
-        //bucketSort(b);
-        //radixSort(b);
-        /*float total = 0;
-        for(int l = 0; l < b.length; l++) {
-            total = total + mergeSort(b, 0, b[0].length - 1, l);
-        }
-        System.out.print("Media MS = ");
-        System.out.printf("%.2f %n", (total/b.length));
-        */
-
-        bucketSort(a);
-        outputArray(a);
-    }
 }
