@@ -138,7 +138,5 @@ public class Vector10000 {
             }
             Organizacao.radixSort(a);
         }
-
-       //Organizacao.outputArray(vector);
     }
 }    
